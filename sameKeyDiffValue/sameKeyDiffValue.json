@@ -1,0 +1,16 @@
+{"code":100,
+ "data":[
+    {
+        "sort":0,
+        "data":"{\"key\":\"test\",\"info\":\"right\"}"
+    },
+    {
+        "sort":1,
+        "data":{"key":"test","info":"right"}
+    },
+    {
+        "sort":2,
+        "data":["test","right"]
+    }
+    ]
+}
