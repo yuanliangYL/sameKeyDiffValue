@@ -17,9 +17,6 @@ class DataModel:HandyJSON {
     required init(){}
 
 }
-
-
-
 enum DataDetailModelType:Int{
     case dataString = 0
     case dataDic
@@ -30,7 +27,7 @@ class DataDetailModel:HandyJSON{
 
     var sort:Int?
 
-    var data:Any?
+    var data:Any? //同一个可以下可能存在不同类型的数据
 
     //本地解析处理
     var dataType:DataDetailModelType = .dataString
